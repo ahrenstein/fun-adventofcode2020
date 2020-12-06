@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 """Advent Of Code 2020 Day 2"""
 
-import re
-import sys
-
 
 # Check password compliance
 def passwd_compliance(min_count, max_count, char, password):
@@ -68,7 +65,7 @@ def main():
         min_count = int(line.split('-')[0])
         max_count = int(line.split('-')[1].split(' ')[0])
         char = line.split(' ')[1].split(':')[0]
-        passwd = line.split (' ')[2]
+        passwd = line.split(' ')[2]
 
         # Check the password
         if passwd_compliance(min_count, max_count, char, passwd):

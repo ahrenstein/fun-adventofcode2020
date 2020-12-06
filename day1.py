@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Advent Of Code 2020 Day 1 Task 1"""
+"""Advent Of Code 2020 Day 1"""
 
 import argparse
 import itertools
